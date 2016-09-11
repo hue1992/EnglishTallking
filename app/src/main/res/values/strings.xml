@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">English Talking</string>
+
+    <string name="title_activity_video_call_center_details">Details</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="error_player">Error player</string>
+
+    <string name="minVersion">minVersion</string>
+    <string name="isLaunchableActivity">isLaunchableActivity</string>
+    <string name="loggingTag">YoutubeAPIDemos</string>
+    <string name="cc_status_available">Available</string>
+</resources>

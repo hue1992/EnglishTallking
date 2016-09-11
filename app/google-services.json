@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "411447693595",
+    "firebase_url": "https://englishtallking.firebaseio.com",
+    "project_id": "englishtallking",
+    "storage_bucket": "englishtallking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411447693595:android:208b7916764a4121",
+        "android_client_info": {
+          "package_name": "com.born2go.englishtalking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411447693595-g7ta5biet8qp1a4gsd7g4fk6hoo5m585.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTwtkbEPhInKpLnOXzjmvfQ9y8A3R5x0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

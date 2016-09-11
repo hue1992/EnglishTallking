@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#FFF"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/avata"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.5"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+            <LinearLayout layout="@layout/view_available"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:id="@+id/active"
+                android:orientation="horizontal"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"></LinearLayout>
+            <!--<TextView-->
+            <!--android:id="@+id/textView5"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="18dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_below="@+id/grade"-->
+            <!--android:text="Live"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:background="@drawable/bg_live"-->
+            <!--android:textSize="10sp"-->
+            <!--android:gravity="center" />-->
+
+            <TextView
+                android:id="@+id/callcenterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:layout_toLeftOf="@+id/imageView2"
+                android:layout_toStartOf="@+id/imageView2"
+                android:singleLine="true" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:tint="#9E9E9E"
+                android:layout_alignTop="@+id/callcenterName"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_star_rate_white_18dp"
+                android:tint="#FFEB3B"
+                android:layout_below="@+id/ccId"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/ic_card_giftcard_black_18dp"
+                android:tint="@color/cc_status_available_text"
+                android:layout_below="@+id/callcenterName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ccId"
+                android:textColor="#000"
+                android:text="ccId"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_alignLeft="@+id/grade"
+                android:layout_alignStart="@+id/grade" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EBEBEB"></LinearLayout>
+</LinearLayout>

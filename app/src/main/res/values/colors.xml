@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorActive">#FF4081</color>
+    <color name="colorDeactivate">#EBEBEB</color>
+
+    <color name="cc_status_available_text">#2E7D32</color>
+    <color name="cc_status_available_bg">#DCEDC8</color>
+
+</resources>
